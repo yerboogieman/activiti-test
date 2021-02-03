@@ -50,7 +50,7 @@ public class TestProcessTest {
 
 	@Test
 	@Deployment(resources = "META-INF/bpmn/TestProcess.bpmn")
-	public void clientDisapprovesJobAndContractorCancels() {
+	public void smokeTestProcess() {
 
 		ProcessEngine processEngine = activitiRule.getProcessEngine();
 		Map<String, Object> variables = new HashMap<>();
